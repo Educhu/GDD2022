@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2500d657d9e936445bdf74fcb077d158, type: 3}
+  m_Name: ToupeiraDePedra
+  m_EditorClassIdentifier: 
+  Id: 4090
+  Prefab: {fileID: 7741452613359852522, guid: df5fc378f4c89fd4783fb98da50df211, type: 3}
+  element: 2
+  enemySprite: {fileID: 21300000, guid: 1547c682dad2912418263296312db348, type: 3}

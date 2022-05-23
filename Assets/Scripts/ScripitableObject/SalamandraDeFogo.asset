@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2500d657d9e936445bdf74fcb077d158, type: 3}
+  m_Name: SalamandraDeFogo
+  m_EditorClassIdentifier: 
+  Id: 2
+  Prefab: {fileID: 3405249836169691351, guid: c68b0790b97813c4e884f01513a860c1, type: 3}
+  element: 1
+  enemySprite: {fileID: 21300000, guid: 30bc378ebae146948954b4924089dc95, type: 3}
