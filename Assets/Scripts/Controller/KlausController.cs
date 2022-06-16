@@ -4,37 +4,47 @@ using UnityEngine;
 
 public class KlausController : MonoBehaviour
 {
-    public GameObject Klaus;
-    public GameObject Player;
+    //public GameObject klaus;
+    //public GameObject player;
 
-    public bool moving = false;
+    private bool isKlausMoving = false;
+
+    //private Vector3 klausDestinationPosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //klausDestinationPosition = new Vector3(player.transform.position.x, player.transform.position.y - 5, player.transform.position.z);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
-    public void KlausMoving()
-    {
-        if(moving == true)
-        {
-            //klaus.position == player. position
-            //mandar o klaus até o player;
-        }
-    }
+    //public void KlausMoving()
+    //{
+    //    if(isKlausMoving)
+    //    {
+    //        if (klaus.transform.position != klausDestinationPosition)
+    //        {
+    //            Debug.Log("klaus está indo");
+
+    //            klaus.transform.Translate(Vector3.up * Time.deltaTime);
+    //        }
+    //        else
+    //        {
+    //            isKlausMoving = false;
+    //        }
+    //    }
+    //}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            moving = true;
+            isKlausMoving = true;
         }
     }
 }

@@ -1,38 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Assets.Scripts.Entities.Enums;
 using UnityEngine.SceneManagement;
 using Assets.Scripts.Services;
+using Assets.Scripts.Controller.Enums;
 
 [System.Serializable]
 public class MobController : MonoBehaviour
 {
-    public Mob m1;
-    public Mob m2;
-    public Mob m3;
-
     public BattleState state;
-    public bool isAlive = true; 
+    public bool isAlive = true;
+
+
+    public Element Element { get; private set; }
+    public List<Vector3> pointsPatrol { get; private set; } = new List<Vector3>();
+    private int Pos;
 
     // Start is called before the first frame update
     void Start()
     {
-        m1 = new Mob();
-
-        m1.AddPointPatrol(new Vector3(10, 0, 0));
-        m1.AddPointPatrol(new Vector3(-10, 0, 0));
+        AddPointPatrol(new Vector3(10, 0, 0));
+        AddPointPatrol(new Vector3(-10, 0, 0));
     }
 
     // Update is called once per frame
     void Update()
     {
-        m1.Patrol(GetComponent<Transform>());
+        Patrol(GetComponent<Transform>());
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             var dataCombat = new CombatData();
             dataCombat.EnemyID = gameObject.GetInstanceID();
@@ -40,6 +39,35 @@ public class MobController : MonoBehaviour
             dataCombat.SaveData("CombatData");
 
             SceneManager.LoadScene("Combate", LoadSceneMode.Single);
+        }
+    }
+
+    public void AddPointPatrol(Vector2 point)
+    {
+        pointsPatrol.Add(point);
+    }
+
+    public void Patrol(Transform actualTransform)
+    {
+        switch (Pos)
+        {
+            case 0:
+
+                if (!(actualTransform.position.x >= pointsPatrol[0].x))
+                    actualTransform.Translate(Vector3.right * Time.deltaTime * 2);
+                else
+                    Pos++;
+
+                break;
+
+            case 1:
+
+                if (!(actualTransform.position.x <= pointsPatrol[1].x))
+                    actualTransform.Translate(Vector3.left * Time.deltaTime * 2);
+                else
+                    Pos--;
+
+                break;
         }
     }
 }

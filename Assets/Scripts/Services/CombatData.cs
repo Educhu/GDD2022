@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 using System.IO;
-using Assets.Scripts.Entities.Enums;
+using Assets.Scripts.Controller.Enums;
 
 namespace Assets.Scripts.Services
 {

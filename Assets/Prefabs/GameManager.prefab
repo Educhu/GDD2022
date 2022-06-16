@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3281676218963394013}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -47,4 +48,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3fe66fce90c97a74594879fd88be984a, type: 2}
   - {fileID: 11400000, guid: 69313e0daefc55b4d95cc0e64f8cce40, type: 2}
   - {fileID: 11400000, guid: d5aa9aab3b1134247b0776900a8b2ec0, type: 2}
-  objectID: 
+  - {fileID: 11400000, guid: b40f736bdc5800442ad3828c5d8960a8, type: 2}

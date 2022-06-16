@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: PassaroDeRaio
   m_EditorClassIdentifier: 
   Id: 1
+  Nome: Passaro De Raio
   Prefab: {fileID: 7741452613359852522, guid: 4196a9023b177234390edacdb3025cea, type: 3}
   element: 3
   enemySprite: {fileID: 21300000, guid: f78f1d622686e964588b856aa4992452, type: 3}

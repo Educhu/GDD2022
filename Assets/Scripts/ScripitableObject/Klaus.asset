@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2500d657d9e936445bdf74fcb077d158, type: 3}
-  m_Name: ToupeiraDePedra
+  m_Name: Klaus
   m_EditorClassIdentifier: 
-  Id: 4090
-  Nome: Toupeira De Pedra
-  Prefab: {fileID: 7741452613359852522, guid: df5fc378f4c89fd4783fb98da50df211, type: 3}
-  element: 2
-  enemySprite: {fileID: 21300000, guid: 1547c682dad2912418263296312db348, type: 3}
+  Id: 6
+  Nome: Klaus
+  Prefab: {fileID: 7163941532200214013, guid: 51be634458a1dbe4d9a9722c85cee56d, type: 3}
+  element: 4
+  enemySprite: {fileID: 21300000, guid: d6afd81306638d54292a5592a84da822, type: 3}

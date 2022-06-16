@@ -15,6 +15,9 @@ TagManager:
   - PlaceStone
   - Stone
   - StonePuzzleManager
+  - KlausInteraction
+  - InteractionManager
+  - KlausCombat
   layers:
   - Default
   - TransparentFX

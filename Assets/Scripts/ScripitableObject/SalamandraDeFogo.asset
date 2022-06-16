@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SalamandraDeFogo
   m_EditorClassIdentifier: 
   Id: 2
+  Nome: Salamandra De Fogo
   Prefab: {fileID: 3405249836169691351, guid: c68b0790b97813c4e884f01513a860c1, type: 3}
   element: 1
   enemySprite: {fileID: 21300000, guid: 30bc378ebae146948954b4924089dc95, type: 3}

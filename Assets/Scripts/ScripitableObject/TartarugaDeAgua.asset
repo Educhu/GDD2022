@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: TartarugaDeAgua
   m_EditorClassIdentifier: 
   Id: 0
+  Nome: Tartaruga D'agua
   Prefab: {fileID: 7163941532200214013, guid: 929a06908dcdc784db7c7830e2326989, type: 3}
   element: 0
   enemySprite: {fileID: 21300000, guid: e1c2520d23a0b4b47beb06ca8847bfab, type: 3}
