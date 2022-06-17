@@ -13,6 +13,8 @@ public class OrderedButtonsManager : MonoBehaviour
     public AudioClip rightSound;
     public AudioClip puzzlePassSound;
 
+    public GameObject porta;
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +44,7 @@ public class OrderedButtonsManager : MonoBehaviour
                 playerAudio.PlayOneShot(puzzlePassSound);
                 doorOpened = true;
                 Debug.Log("A porta se abriu");
+                Destroy(porta);
             }
         }
         else if(button.GetComponent<ButtonO>().buttonIndex > index)

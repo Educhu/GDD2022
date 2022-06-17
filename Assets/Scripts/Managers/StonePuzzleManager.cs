@@ -12,6 +12,8 @@ public class StonePuzzleManager : MonoBehaviour
     public AudioClip unClickPlace;
     public AudioClip puzzleCompleteSound;
 
+    public GameObject porta;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,7 @@ public class StonePuzzleManager : MonoBehaviour
             Debug.Log("A porta Abriu");
             playerAudio.PlayOneShot(puzzleCompleteSound);
             doorOpened = true;
+            Destroy(porta);
         }
     }
 

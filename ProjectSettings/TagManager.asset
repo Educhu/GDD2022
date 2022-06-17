@@ -58,3 +58,9 @@ TagManager:
   - name: Personagem
     uniqueID: 1719632253
     locked: 0
+  - name: background
+    uniqueID: 2062638611
+    locked: 0
+  - name: chao
+    uniqueID: 2049510803
+    locked: 0

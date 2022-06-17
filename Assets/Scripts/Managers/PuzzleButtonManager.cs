@@ -16,6 +16,8 @@ public class PuzzleButtonManager : MonoBehaviour
 
     public bool doorOpened = false;
 
+    public GameObject porta;
+
 
     // Update is called once per frame
     void Update()
@@ -56,6 +58,7 @@ public class PuzzleButtonManager : MonoBehaviour
                 Debug.Log("A Porta Abriu");
                 playerAudio.PlayOneShot(doorOpening);
                 doorOpened = true;
+                Destroy(porta);
             }
         }
     }
