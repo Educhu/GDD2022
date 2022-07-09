@@ -1,0 +1,992 @@
+fileFormatVersion: 2
+guid: 6dfc72ebe32a18e4baaf37bf295a19d5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 704
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cffbb9c263f134cad990966a6a455f
+      internalID: 1043556908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 704
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd304279dd9bb441a0e6cc64fd6fd75
+      internalID: -1608832219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 706
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badc0f1fd440ef447981fd8fd0db27d8
+      internalID: -2063372540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_3
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 706
+        width: 160
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279c23c8573382c44be151f953b8429d
+      internalID: 165741166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 697
+        width: 155
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3151d06d182450449951ca627e2a97c8
+      internalID: -778420004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 697
+        width: 156
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb33cf0e80439a6468a10c8a30518d9f
+      internalID: -183425242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 537
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa227fa79c166324eaf2ce24fc198a8b
+      internalID: -466377901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 539
+        width: 160
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806db0f93a50cdc4897b9e8672cd5cff
+      internalID: 82392268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_8
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 536
+        width: 159
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd5b204515d2f44e97c06917140971c
+      internalID: 1204965679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_9
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 537
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15835a931bb83c48926ccf69762694a
+      internalID: -464484211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 529
+        width: 157
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f727f7438ad2f44d816eb5871c7a3f1
+      internalID: -624828603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 528
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3326ce95f5d72264cb83f5523ad0fa64
+      internalID: -1635925081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 342
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c148883b75d134096b907cef3c1409
+      internalID: 299633466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 342
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a800ea085c26bc04d923fd0154d37453
+      internalID: 777868811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_14
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 341
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7175d887aaf1860429806bb7320b1648
+      internalID: -935838160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_15
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 347
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddae1400e954eae488b2032ceef715e7
+      internalID: -1186209479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_16
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 347
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996a2a017b28d614e8c7afd90a44c2cc
+      internalID: 1575480148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 345
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9985e3b74afe89446a40af803d7f0e1e
+      internalID: -916131428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 350
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac39f6de50ecdf84895ce60b475b6f9f
+      internalID: 562306387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 350
+        width: 156
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d318a0768319724686579bdbc31b36b
+      internalID: 1091178306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 350
+        width: 157
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ab661ef5b19994aab0ca993ecd0f99
+      internalID: -1279341837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 173
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a9af19e11f8eb46beee7cd64805846
+      internalID: 1351884177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 174
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737f8fa44fdf91e40acfc8ae9507f5d1
+      internalID: 404778158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_23
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 172
+        width: 160
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072d7f862608bf642ab86c0f7d6efb2e
+      internalID: 681995711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_24
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 175
+        width: 162
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02180d304acadf43b5e033a71a05cb4
+      internalID: -779436441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_25
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 175
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f795c83ae142b44b824f49c0e50a3a5
+      internalID: 1718785024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 174
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1324487a28b42c847b157d24bc9e7dcc
+      internalID: 1571426751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 181
+        width: 156
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ddfe0ed4b33604c9f4c60c1fb867f2
+      internalID: 33906650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 180
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a121dc0ebddc7645a19e75f4a5c872b
+      internalID: 700158969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 182
+        width: 157
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0d864d9664e584c843ed2a82457973
+      internalID: -1685585299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6
+        width: 162
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab73fab6d25a2e4f90542d2d29a12d0
+      internalID: 88538558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 5
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5888fc7402d06eb44bfe425bc21d2a27
+      internalID: 1935561641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_32
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 4
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60910401f010978468420f97bcbeb8b7
+      internalID: 137867396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_33
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 3
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ceaef9897b7844a11aa346056fed4
+      internalID: -558675541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_34
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 4
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa27b14d4b68496479dd4395e64aea41
+      internalID: 1588117531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_35
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 2
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6465cfcd2d7d0438a9d87bfd909837
+      internalID: 1825039118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_36
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 10
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eeeeebff7270fc4ebb34975cd585037
+      internalID: -194141669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 11
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bdb3234192be94e9ff7b1375e37b5e
+      internalID: -2058555712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap-Floresta (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 10
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b9ca3ad4f184741b59bc02f62da8aa
+      internalID: 277208205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TileMap-Floresta (1)_33: -558675541
+      TileMap-Floresta (1)_8: 1204965679
+      TileMap-Floresta (1)_1: -1608832219
+      TileMap-Floresta (1)_16: 1575480148
+      TileMap-Floresta (1)_0: 1043556908
+      TileMap-Floresta (1)_12: 299633466
+      TileMap-Floresta (1)_25: 1718785024
+      TileMap-Floresta (1)_2: -2063372540
+      TileMap-Floresta (1)_37: -2058555712
+      TileMap-Floresta (1)_11: -1635925081
+      TileMap-Floresta (1)_26: 1571426751
+      TileMap-Floresta (1)_10: -624828603
+      TileMap-Floresta (1)_13: 777868811
+      TileMap-Floresta (1)_18: 562306387
+      TileMap-Floresta (1)_35: 1825039118
+      TileMap-Floresta (1)_4: -778420004
+      TileMap-Floresta (1)_30: 88538558
+      TileMap-Floresta (1)_17: -916131428
+      TileMap-Floresta (1)_21: 1351884177
+      TileMap-Floresta (1)_27: 33906650
+      TileMap-Floresta (1)_31: 1935561641
+      TileMap-Floresta (1)_38: 277208205
+      TileMap-Floresta (1)_32: 137867396
+      TileMap-Floresta (1)_22: 404778158
+      TileMap-Floresta (1)_24: -779436441
+      TileMap-Floresta (1)_3: 165741166
+      TileMap-Floresta (1)_7: 82392268
+      TileMap-Floresta (1)_34: 1588117531
+      TileMap-Floresta (1)_28: 700158969
+      TileMap-Floresta (1)_6: -466377901
+      TileMap-Floresta (1)_14: -935838160
+      TileMap-Floresta (1)_15: -1186209479
+      TileMap-Floresta (1)_19: 1091178306
+      TileMap-Floresta (1)_20: -1279341837
+      TileMap-Floresta (1)_23: 681995711
+      TileMap-Floresta (1)_29: -1685585299
+      TileMap-Floresta (1)_5: -183425242
+      TileMap-Floresta (1)_9: -464484211
+      TileMap-Floresta (1)_36: -194141669
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
